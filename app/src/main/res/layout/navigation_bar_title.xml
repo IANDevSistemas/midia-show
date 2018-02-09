@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlue"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/button_goto_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_menu_action_goto_back"
+        android:contentDescription="@string/action_goto_back" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="12"
+        android:text="@string/app_name"
+        android:textAppearance="@style/AppTheme.Title"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+</LinearLayout>

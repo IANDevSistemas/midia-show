@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_apply">Aplicar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_goto_back">Voltar</string>
+    <string name="action_goto_content">Conteúdos</string>
+    <string name="action_goto_clock">Relógio</string>
+    <string name="action_goto_device">Dispositivo</string>
+    <string name="action_goto_info">Sobre</string>
+    <string name="action_goto_log">Logs</string>
+    <string name="action_goto_player">Player</string>
+    <string name="action_goto_person">Conta</string>
+    <string name="action_goto_registry">Registro</string>
+    <string name="action_goto_service">Serviços</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_refresh">Atualizar</string>
+    <string name="action_sync">Sincronizar</string>
+    <string name="action_run">Executar</string>
+    <string name="action_running">Executando</string>
+</resources>

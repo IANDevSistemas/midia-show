@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- License -->
+    <string name="label_licence_deviceID">Código Dispositivo</string>
+    <string name="label_license_deviceCode">Código Android</string>
+    <string name="label_license_deviceDescription">Nome do dispositivo</string>
+    <string name="label_license_ownerID">Código do proprietário</string>
+    <string name="label_license_password">Senha</string>
+    <string name="label_license_url">URL</string>
+
+    <!-- Device -->
+    <string name="label_device_id">Código Dispositivo</string>
+    <string name="label_device_description">Descrição</string>
+    <string name="label_device_status">Situação</string>
+    <string name="label_device_person">Proprietário</string>
+    <string name="label_device_channel">Canal</string>
+    <string name="label_device_code">Código Android</string>
+    <string name="label_device_timeZone">Time Zone</string>
+    <string name="label_device_updateInterval">Intervalo Sincronismo</string>
+    <string name="label_device_updateToleranceInterval">Tolerância Assicronismo</string>
+    <string name="label_device_mustUpdate">Precisa Sincronizar</string>
+    <string name="label_device_outOfDate">Dessincronizado</string>
+    <string name="label_device_lastUpdateDate">Último Sincronismo</string>
+    <string name="label_device_lastUpdateAttemptDate">Última Tentativa Sincronismo</string>
+    <string name="label_device_nextUpdateDate">Próximo Sincronismo</string>
+    <string name="label_device_tokenExpirationInterval">Duração Token</string>
+    <string name="label_device_lastAuthenticationDate">Última Autenticação</string>
+    <string name="label_device_token">Token</string>
+
+    <!-- Person -->
+    <string name="label_person_id">Código Proprietário</string>
+    <string name="label_person_name">Nome</string>
+    <string name="label_person_alias">Apelido</string>
+    <string name="label_person_status">Situação</string>
+
+    <!-- Content -->
+    <string name="label_content_id">Código Conteúdo</string>
+    <string name="label_content_description">Descrição</string>
+    <string name="label_content_status">Situação</string>
+
+    <string name="label_content_durationInterval">Duração</string>
+    <string name="label_content_lastPlaybackDate">Última Reprodução</string>
+
+    <string name="label_content_updateInterval">Intervalo Atualização</string>
+    <string name="label_content_updateToleranceInterval">Tolerância Desatualização</string>
+    <string name="label_content_lastUpdateDate">Última Atualização</string>
+    <string name="label_content_lastUpdateAttemptDate">Última Tentativa Atualização</string>
+    <string name="label_content_nextUpdateDate">Próxima Atualização</string>
+    <string name="label_content_mustUpdate">Precisa Atualizar</string>
+    <string name="label_content_outOfDate">Desatualizado</string>
+
+    <string name="label_content_startDate">Data Início Reprodução</string>
+    <string name="label_content_endDate">Última Atualização</string>
+
+    <string name="label_content_integrationApi">API de Integração</string>
+    <string name="label_content_accessUrl">URL de Acesso</string>
+    <string name="label_content_hash">Hash</string>
+    <string name="label_content_alias">Apelido</string>
+    <string name="label_content_indexFilePath">Arquivo</string>
+
+    <!-- App -->
+    <string name="label_app_name">Aplicativo</string>
+    <string name="label_app_versionName">Nome da Versão</string>
+    <string name="label_app_versionCode">Código da Versão</string>
+
+    <!-- Database -->
+    <string name="label_database_name">Banco de Dados</string>
+    <string name="label_database_version">Versão</string>
+
+    <!-- Files -->
+    <string name="label_files_location">Localização Arquivos</string>
+    <string name="label_files_size">Espaço Armazenado</string>
+</resources>

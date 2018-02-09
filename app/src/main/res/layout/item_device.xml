@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:drawableLeft="?android:attr/listChoiceIndicatorMultiple"
+    android:orientation="vertical"
+    tools:ignore="RtlHardcoded">
+
+    <!-- id -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_id" />
+
+    <TextView
+        android:id="@+id/id"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- description -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_description" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- status -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_status" />
+
+    <TextView
+        android:id="@+id/status"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- person -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_person" />
+
+    <TextView
+        android:id="@+id/person"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- channel -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_channel" />
+
+    <TextView
+        android:id="@+id/channel"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- timeZone -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_timeZone" />
+
+    <TextView
+        android:id="@+id/timeZone"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!-- Sync Button -->
+    <Button
+        android:id="@+id/action_sync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_sync" />
+
+    <!-- updateInterval -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_updateInterval" />
+
+    <TextView
+        android:id="@+id/updateInterval"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- updateToleranceInterval -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_updateToleranceInterval" />
+
+    <TextView
+        android:id="@+id/updateToleranceInterval"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- lastUpdateDate -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_lastUpdateDate" />
+
+    <TextView
+        android:id="@+id/lastUpdateDate"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- lastUpdateAttemptDate -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_lastUpdateAttemptDate" />
+
+    <TextView
+        android:id="@+id/lastUpdateAttemptDate"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- nextUpdateDate -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_nextUpdateDate" />
+
+    <TextView
+        android:id="@+id/nextUpdateDate"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- mustUpdate -->
+    <CheckedTextView
+        android:id="@+id/mustUpdate"
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/textCheckMark"
+        android:checked="false"
+        android:text="@string/label_device_mustUpdate" />
+
+    <!-- outOfDate -->
+    <CheckedTextView
+        android:id="@+id/outOfDate"
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/textCheckMark"
+        android:checked="false"
+        android:text="@string/label_device_outOfDate" />
+
+    <!-- lastAuthenticationDate -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_lastAuthenticationDate" />
+
+    <TextView
+        android:id="@+id/lastAuthenticationDate"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- tokenExpirationInterval -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_tokenExpirationInterval" />
+
+    <TextView
+        android:id="@+id/tokenExpirationInterval"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- token -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_device_token" />
+
+    <TextView
+        android:id="@+id/token"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

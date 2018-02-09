@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- id -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_person_id" />
+
+    <TextView
+        android:id="@+id/id"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- name -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_person_name" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- alias -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_person_alias" />
+
+    <TextView
+        android:id="@+id/alias"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- status -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_person_status" />
+
+    <TextView
+        android:id="@+id/status"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

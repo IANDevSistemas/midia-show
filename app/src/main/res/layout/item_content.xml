@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- id -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_id" />
+
+    <TextView
+        android:id="@+id/id"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- description -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_description" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- status -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_status" />
+
+    <TextView
+        android:id="@+id/status"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- durationInterval -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_durationInterval" />
+
+    <TextView
+        android:id="@+id/durationInterval"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- lastPlaybackDate -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_lastPlaybackDate" />
+
+    <TextView
+        android:id="@+id/lastPlaybackDate"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- updateInterval -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_updateInterval" />
+
+    <TextView
+        android:id="@+id/updateInterval"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- updateToleranceInterval -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_updateToleranceInterval" />
+
+    <TextView
+        android:id="@+id/updateToleranceInterval"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/action_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_refresh" />
+
+    <!-- lastUpdateDate -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_lastUpdateDate" />
+
+    <TextView
+        android:id="@+id/lastUpdateDate"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- lastUpdateAttemptDate -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_lastUpdateAttemptDate" />
+
+    <TextView
+        android:id="@+id/lastUpdateAttemptDate"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- nextUpdateDate -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_nextUpdateDate" />
+
+    <TextView
+        android:id="@+id/nextUpdateDate"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- mustUpdate -->
+    <CheckedTextView
+        android:id="@+id/mustUpdate"
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/textCheckMark"
+        android:checked="false"
+        android:text="@string/label_content_mustUpdate" />
+
+    <!-- outOfDate -->
+    <CheckedTextView
+        android:id="@+id/outOfDate"
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/textCheckMark"
+        android:checked="false"
+        android:text="@string/label_content_outOfDate" />
+
+    <!-- startDate -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_startDate" />
+
+    <TextView
+        android:id="@+id/startDate"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- endDate -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_endDate" />
+
+    <TextView
+        android:id="@+id/endDate"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- integrationApi -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_integrationApi" />
+
+    <TextView
+        android:id="@+id/integrationApi"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- accessUrl -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_accessUrl" />
+
+    <TextView
+        android:id="@+id/accessUrl"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- hash -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_hash" />
+
+    <TextView
+        android:id="@+id/hash"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- alias -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_alias" />
+
+    <TextView
+        android:id="@+id/alias"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- indexFilePath -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_content_indexFilePath" />
+
+    <TextView
+        android:id="@+id/indexFilePath"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "Rationale";
+	src: url(../fonts/Rationale/Rationale-Regular.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Syncopate";
+	src: url(../fonts/Syncopate/Syncopate-Regular.ttf) format("truetype");
+}
+
+body {
+  padding-top: 50px;
+  max-height: 100%;
+}
+
+.widget-clock .digital {
+  text-align: center;
+}
+
+.widget-clock .time {
+  font-family: 'Rationale', sans-serif;
+  font-size: 2.0em;
+  color: #1da4eb;
+}
+
+.widget-clock .gmt-info {
+	font-family: 'Syncopate', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+}

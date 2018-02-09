@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- location -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_files_location" />
+
+    <TextView
+        android:id="@+id/location"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- location -->
+    <TextView
+        style="@style/AppTheme.Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_files_size" />
+
+    <TextView
+        android:id="@+id/size"
+        style="@style/AppTheme.Attribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

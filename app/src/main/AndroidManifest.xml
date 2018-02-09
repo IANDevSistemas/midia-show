@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.iandev.midiaindoor"
+    android:installLocation="internalOnly">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher_product"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver android:name=".core.receivers.BootCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".core.services.ServiceAlarmReceiver" />
+
+        <service android:name=".core.services.PlayerService" />
+        <service android:name=".core.services.ManagementService" />
+        <service android:name=".core.services.SyncService" />
+
+        <activity
+            android:name=".view.activity.StartActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".view.activity.PlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:keepScreenOn="true"
+            android:label="@string/title_player"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.Fullscreen" />
+
+        <activity
+            android:name=".view.activity.DeviceActivity"
+            android:label="@string/title_registry"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".view.activity.ClockActivity"
+            android:label="@string/title_clock"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".view.activity.PersonActivity"
+            android:label="@string/title_person"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".view.activity.LicenseActivity"
+            android:label="@string/title_registry"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".view.activity.ContentActivity"
+            android:label="@string/title_content"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".view.activity.InfoActivity"
+            android:label="@string/title_info"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".view.activity.LogActivity"
+            android:label="@string/title_log"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".view.activity.ServiceActivity"
+            android:label="@string/title_service"
+            android:theme="@style/AppTheme" />
+
+
+    </application>
+
+</manifest>

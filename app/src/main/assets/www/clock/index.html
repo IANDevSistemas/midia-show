@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Angular-Clock</title>
+    <link rel="stylesheet" href="../css/angular-clock.css">
+    <link rel="stylesheet" href="../css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body ng-app="app">
+<div class="row" ng-controller="ctrl">
+    <div class="col-xs-3 col-sm-4"></div>
+    <div div class="col-xs-6 col-sm-4" ng-if="clock">
+        <ds-widget-clock start-time="clock.startTime" gmt-offset="timeZoneToGMT(clock.gmtOffset)"
+                         digital-format="clock.format" show-gmt-info></ds-widget-clock>
+    </div>
+</div>
+<script src="../js/angular.min.js"></script>
+<script src="../js/angular-clock.min.js"></script>
+<script src="../js/ui-bootstrap-tpls.min.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>

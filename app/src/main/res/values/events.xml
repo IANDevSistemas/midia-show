@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="event_application_start">Inicio da Aplicação</string>
+
+    <string name="event_management_attempting">Atualização de conteúdo</string>
+    <string name="event_management_service_started">Serviço de atualização iniciado</string>
+    <string name="event_management_service_stopped">Serviço de atualização parado</string>
+
+    <string name="event_player_activity_start">Reprodutor iniciado</string>
+    <string name="event_player_activity_changed">Reprodutor mudou o conteúdo</string>
+    <string name="event_player_service_started">Serviço de reprodução iniciado</string>
+    <string name="event_player_service_stopped">Serviço de reprodução parado</string>
+
+    <string name="event_registry_attempting">Registro</string>
+    <string name="event_registry_service_started">Serviço de registro iniciado</string>
+    <string name="event_registry_service_stopped">Serviço de registro parado</string>
+
+    <string name="event_authentication_attempting">Atualização de Token</string>
+
+    <string name="event_sync_attempting">Sincronismo da programação</string>
+    <string name="event_sync_sevice_started">Serviço de sincronismo iniciado</string>
+    <string name="event_sync_sevice_stopped">Serviço de sincronismo parado</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_doing_registry">Registrando&#8230;</string>
+    <string name="message_doing_sync">Atualizando a programação&#8230;</string>
+    <string name="message_doing_management">Atualizando a conteúdos&#8230;</string>
+    <string name="message_wait">Aguarde um instante até o fim da ação</string>
+    <string name="message_starting">Iniciando ação</string>
+    <string name="message_success">Ação concluida com sucesso</string>
+    <string name="message_error">Erro ao realizar ação</string>
+</resources>
