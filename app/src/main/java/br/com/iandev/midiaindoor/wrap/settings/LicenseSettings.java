@@ -40,7 +40,7 @@ public class LicenseSettings extends Settings {
     }
 
     public String getOwnerId() {
-        return super.getValue(KEY_OWNER_ID, "25");
+        return super.getValue(KEY_OWNER_ID, "");
     }
 
     public Settings setOwnerID(String value) {
@@ -48,7 +48,7 @@ public class LicenseSettings extends Settings {
     }
 
     public String getPassword() {
-        return super.getValue(KEY_PASSWORD, "fiesta@2017");
+        return super.getValue(KEY_PASSWORD, "");
     }
 
     public Settings setPassword(String value) {
